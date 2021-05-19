@@ -33,6 +33,7 @@ const MyBookmarks = () => {
   return (
     <div>
       <div className="container" style={{ marginTop: 20 }}>
+      <h1>Welcome back {user.firstName} {user.lastName}</h1>
         <div className="row">
           <Link to="/addbookmark" className="btn btn-primary btn-block" style={{marginTop: 20}}>
             Add Bookmark
